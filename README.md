@@ -17,7 +17,7 @@ This is the main file with model. Provided that you have cloned the repository, 
 As the preprocessed data is already a part of the repository, the rest of the code doesn't need to be run on your pc unless you explicitly want to change something on the data preprocessing level. The data pipeline is designed for the IEMOCAP data set, but you may use the function that writes to records with your custom data as long as it fits to the format.
 
 #### data_preprocessing.sh
-This is a console script for extracting audio features from .wav aufio files
+This is a console script for extracting audio features from .wav audio files
 
 #### data_pipeline.py
 This script makes TensorFlow records with ready training examples out of the data from IEMOCAP data set and audio features computed with data_preprocessing.sh.
